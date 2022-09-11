@@ -1,0 +1,193 @@
+body{
+  margin: 5px;
+  font-family: verdana;
+}
+
+.main {
+  display: block;
+  background-image: url("../pictures/img1.jpg");
+  background-color: purple;
+  background-size: cover;
+  width: 98vw;
+  height: 98vh;
+  padding-top:5px;
+  margin-bottom:5px;
+  background-repeat: no-repeat;
+
+}
+.text{
+  height: 200px;
+  width: 400px;
+  font-size: 11pt;
+  text-align: justify;
+  color: rgb(229, 228, 228);
+  padding-top: 2%;
+  padding-left: 10%;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+.break{
+  font-size: 30px;
+  padding: 0.5vw;
+  letter-spacing: 16px;
+  text-align: right;
+  padding-right: 2vh;
+  padding-bottom: 3vh;
+}
+
+#myimage{
+  width: 220%;
+  height:220%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .form-container{
+      display: block;
+  }
+  .text{
+    width: 80%;
+    font-size: 18pt;
+    color: white;    
+    text-align: justify;
+    padding-top: 20%;
+    padding-left: 10%;
+  }
+  .about{
+    padding-left: 20%;
+    font-size: 18pt;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    }
+
+ .poster-box{
+
+    width: 100%;
+    padding: 5%;
+    
+  }
+
+
+}
+
+
+.img-magnifier-container {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 0.5%;
+ 
+
+}
+
+.img-magnifier-container::-webkit-scrollbar-track {
+  backgroun200d: var(--scrollbarBG);
+}
+
+.timeline{
+  max-height: 0.5;
+  
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 50%;
+  height: 50%;
+}
+
+
+
+.flex-container{
+  display: flex;
+}
+.poster{
+
+  width: 100%;
+  padding: 1%;
+
+}
+.poster-box{
+width: 60%;
+
+}
+.aaa{
+  padding: 2.5%;
+  flex-basis: auto;
+  height: 60vh;
+  font-size: 40pt;
+  padding-right: 5vw;
+
+
+}
+.about{
+padding-top: 5vw;
+padding-left: 4%;
+text-align: left;
+font-size: 14pt;
+
+}
+
+.text2{
+  padding: 3%;
+  width: 30%;
+
+}
+.list{
+  padding-left: 7%;
+  line-height: 40%;
+  padding-bottom: 3%;
+}
+
+.movieT{
+  padding-top: 5vh;
+  padding: 3vw;
+  letter-spacing: 16px;
+  font-weight: bold;
+  padding-left: 76vw;
+  font-size: 18px;
+}
+.movie{
+  display: block;
+
+
+}
+video{
+  width: 70vw;
+  text-align: center;
+  margin-left: 15vw;
+  padding-bottom: 5vw;
+
+}
+.prot{
+  letter-spacing: 16px;
+  font-weight: bold;
+  padding-right: 76vw;
+  padding-left: 3vw;
+  font-size: 18px;
+
+}
+.group{
+
+  display: inline;
+}
+.gpic{
+  width: 40%;
+  padding-left: 12vw;
+  padding-top: 3vw;
+}
+.more{
+  background-color: purple;
+  display: inline;
+  width: 10vw;
+  padding-left: 3vw;
+  font-size: 18pt;
+  letter-spacing: 16px;
+  font-weight: bold;
+  text-align:
+
+}
