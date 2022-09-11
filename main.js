@@ -16,7 +16,7 @@ function magnify(imgID, zoom) {
   bw = 3;
   w = glass.offsetWidth / 2;
   h = glass.offsetHeight / 2;
-
+ 
   /* Execute a function when someone moves the magnifier glass over the image: */
   glass.addEventListener("mousemove", moveMagnifier);
   img.addEventListener("mousemove", moveMagnifier);
@@ -58,4 +58,4 @@ function magnify(imgID, zoom) {
     return {x : x, y : y};
   }
 }
-magnify("timeline", 2);
+magnify("timelineimg", 3);

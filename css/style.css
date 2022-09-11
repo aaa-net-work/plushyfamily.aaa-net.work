@@ -36,10 +36,6 @@ body{
   padding-bottom: 3vh;
 }
 
-#myimage{
-  width: 220%;
-  height:220%;
-}
 
 @media only screen and (max-device-width: 480px) {
   .form-container{
@@ -67,27 +63,25 @@ body{
     padding: 5%;
     
   }
-
+  
 
 }
-
+#timelineimg{
+  max-height: 100%;
+  
+}
 
 .img-magnifier-container {
   position: relative;
   overflow-x: scroll;
   overflow-y: hidden;
-  height: 0.5%;
+  height: 20em;
  
 
 }
 
 .img-magnifier-container::-webkit-scrollbar-track {
-  backgroun200d: var(--scrollbarBG);
-}
-
-.timeline{
-  max-height: 0.5;
-  
+  background: var(--scrollbarBG);
 }
 
 .img-magnifier-glass {
@@ -96,11 +90,9 @@ body{
   border-radius: 50%;
   cursor: none;
   /*Set the size of the magnifier glass:*/
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 70%;
 }
-
-
 
 .flex-container{
   display: flex;
@@ -108,10 +100,11 @@ body{
 .poster{
 
   width: 100%;
-  padding: 1%;
+  padding: 2%;
 
 }
 .poster-box{
+  min-width: 200px;
 width: 60%;
 
 }
@@ -139,7 +132,7 @@ font-size: 14pt;
 }
 .list{
   padding-left: 7%;
-  line-height: 40%;
+  line-height: auto;
   padding-bottom: 3%;
 }
 
@@ -188,6 +181,5 @@ video{
   font-size: 18pt;
   letter-spacing: 16px;
   font-weight: bold;
-  text-align:
-
+ 
 }
