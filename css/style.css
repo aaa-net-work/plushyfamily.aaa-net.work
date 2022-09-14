@@ -27,6 +27,18 @@ body{
   margin-right: 2%;
 }
 
+.text2{
+
+  width: 40%;
+  font-size: 12pt;
+  text-align: justify;
+  color: rgb(2, 2, 2);
+  padding-top: 3%;
+  padding-left: 40%;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
 .break{
   font-size: 30px;
   padding: 0.5vw;
@@ -49,10 +61,20 @@ body{
     padding-top: 20%;
     padding-left: 10%;
   }
+
+
+  .text2{
+    width: 80%;
+    font-size: 14pt;
+    color: rgb(2, 2, 2);    
+    text-align: justify;
+    padding-top: 20%;
+    padding-left: 10%;
+  }
   .about{
     padding-left: 20%;
-    font-size: 18pt;
-    width: 60%;
+    font-size: 14pt;
+    width: 80%;
     margin-left: 20%;
     margin-top: 2%;
     }
@@ -61,7 +83,13 @@ body{
 
     width: 100%;
     padding: 5%;
+
     
+  }
+
+  .group{
+    size: 80%;
+    display: inline;
   }
   
 
@@ -96,6 +124,7 @@ body{
 
 .flex-container{
   display: flex;
+  width: 100%;
 }
 .poster{
 
@@ -104,8 +133,11 @@ body{
 
 }
 .poster-box{
-  min-width: 200px;
-width: 60%;
+min-width: 300px;
+
+width: 80%;
+padding-left: 10%;
+padding-top: 8%;
 
 }
 .aaa{
@@ -118,7 +150,7 @@ width: 60%;
 
 }
 .about{
-padding-top: 5vw;
+padding-top: 2%;
 padding-left: 4%;
 text-align: left;
 font-size: 14pt;
@@ -132,7 +164,8 @@ font-size: 14pt;
 }
 .list{
   padding-left: 7%;
-  line-height: auto;
+  line-height: 12pt;
+  font-size: 12pt;
   padding-bottom: 3%;
 }
 
@@ -141,19 +174,23 @@ font-size: 14pt;
   padding: 3vw;
   letter-spacing: 16px;
   font-weight: bold;
-  padding-left: 76vw;
-  font-size: 18px;
+  padding-left: 10%;
+  font-size: 18pt;
 }
 .movie{
-  display: block;
-
-
+  display: flexbox;
+  width: 90%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
+
 video{
-  width: 70vw;
+  width: 100%;
   text-align: center;
   margin-left: 15vw;
   padding-bottom: 5vw;
+  padding-top: 5%;
 
 }
 .prot{
@@ -165,7 +202,7 @@ video{
 
 }
 .group{
-
+  size: 60%;
   display: inline;
 }
 .gpic{
@@ -182,4 +219,12 @@ video{
   letter-spacing: 16px;
   font-weight: bold;
  
+}
+
+.gmore{
+
+  display: flex;
+  width: 70%;
+  padding-left: 5%;
+
 }
