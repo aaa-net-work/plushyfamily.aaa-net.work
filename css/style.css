@@ -68,29 +68,70 @@ body{
     font-size: 14pt;
     color: rgb(2, 2, 2);    
     text-align: justify;
-    padding-top: 20%;
+    padding-top: 5%;
     padding-left: 10%;
   }
+
+  .flex-container2{
+    display: flex;
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  .break{
+    font-size: 30px;
+    padding: 2%;
+    letter-spacing: 16px;
+    text-align: right;
+    padding-right: 5%h;
+    padding-bottom: 1%;
+  }
   .about{
-    padding-left: 20%;
+    padding-right: 5%;
     font-size: 14pt;
     width: 80%;
-    margin-left: 20%;
-    margin-top: 2%;
+    margin-left: 5%;
+    padding-top: 20%;
     }
 
  .poster-box{
 
-    width: 100%;
-    padding: 5%;
+    width: 40%;
+    padding: 1%;
 
     
+  }
+  .poster{
+
+    width: 60%;
+    padding: 1%;
+  
   }
 
   .group{
     size: 80%;
     display: inline;
   }
+
+  .img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 10%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 30%;
+    height: 30%;
+  }
+
+  
+.img-magnifier-container {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  size: 50%;
+ 
+
+}
   
 
 }
@@ -126,6 +167,12 @@ body{
   display: flex;
   width: 100%;
 }
+
+.flex-container2{
+  display: flex;
+  width: 50%;
+  margin-left: 20%;
+}
 .poster{
 
   width: 100%;
@@ -157,11 +204,8 @@ font-size: 14pt;
 
 }
 
-.text2{
-  padding: 3%;
-  width: 30%;
 
-}
+
 .list{
   padding-left: 7%;
   line-height: 12pt;
